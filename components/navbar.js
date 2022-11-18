@@ -30,3 +30,5 @@ const Navbar = () => {
     )
 }
 export default Navbar;
+
+// need to add typescript
