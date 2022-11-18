@@ -2,8 +2,8 @@ import Navbar from "../../components/navbar";
 // import axios from "axios";
 // import { useEffect, useState } from "react";
 import styles from "./../../styles/products.module.css"
-import ProductCard from "./../../components/productCard"
-import data from "./../../data/data.json"
+import ProductCard from "../../components/productCard"
+import data from "../../data/data.json"
 
 const Products = () => {
 
@@ -21,9 +21,9 @@ const Products = () => {
             <Navbar />
             <h1 style={{ margin: "2rem" }}>This is Product page</h1>
             <div className={styles.item_container}>
-                {data.map(({ id, productName,idealName, size, price, brand,productImage,quantity,discount,stock}) => {
+                {data.map(({ id, productName,idealName, price, brand,productImage,quantity,discount,stock}) => {
                     return (
-                        <ProductCard  id={id} productName={productName} discount={discount} idealName={idealName} price={price} size={size} brand={brand} productImage={productImage} quantity={quantity} stock={stock}/>
+                        <ProductCard  id={id} productName={productName} discount={discount} idealName={idealName} price={price}  brand={brand} productImage={productImage} quantity={quantity} stock={stock}/>
                     )
                 })}
             </div>

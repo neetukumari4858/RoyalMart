@@ -1,14 +1,15 @@
 import { useCart } from "../context/cartContext"
 import styles from "./../styles/products.module.css"
 
+
 const PriceDetail = () => {
 
     const { cartState } = useCart()
     const { cart } = cartState
 
-    const itemsPrice = cart.reduce((acc, item) => (acc = acc + Number(item.price * item.quantity)), 0)
+    const itemsPrice = cart.reduce((acc:any, item:any) => (acc = acc + Number(item.price * item.quantity)), 0)
 
-    const itemDiscount = cart.reduce((acc, item) => (acc + (Number(item.price) * Number(item.discount * item.quantity) / 100)), 0)
+    const itemDiscount = cart.reduce((acc:any, item:any) => (acc + (Number(item.price) * Number(item.discount * item.quantity) / 100)), 0)
 
     const itemDiscounttrunc = Math.trunc(itemDiscount)
 

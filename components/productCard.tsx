@@ -1,11 +1,13 @@
 
 import styles from "./../styles/products.module.css"
-import { useCart } from "./../context/cartContext"
+import { useCart } from "../context/cartContext"
 
 const ProductCard = ({ id, productName, idealName, price, brand, productImage, quantity, discount, stock }) => {
 
     const { cartState, cartDispatch } = useCart()
     const { cart } = cartState
+
+    const value = true
 
     return (
         <div className={styles.each_item}>
@@ -15,7 +17,7 @@ const ProductCard = ({ id, productName, idealName, price, brand, productImage, q
             <p>{price} Rs. {discount}% </p>
             <p>{brand}</p>
             {
-                cart.map((value) => {
+                cart.map((value: any) => {
                     if (value.id === id) {
                         return (
                             <>
@@ -44,7 +46,7 @@ const ProductCard = ({ id, productName, idealName, price, brand, productImage, q
                 })
             }
 
-            {cart.find((item) => item.id === id) ? <button className={styles.disabled_btn} disabled="true">Moved to cart </button> : (
+            {cart.find((item: any) => item.id === id) ? <button className={styles.disabled_btn} disabled={value}>Moved to cart </button> : (
                 <button key={id} className={styles.btn} onClick={() => cartDispatch({
                     type: "ADD_TO_CART", payload: {
                         id: id,
