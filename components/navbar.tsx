@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import styles from "../styles/navbar.module.css"   
-import {useCart} from "./../context/cartContext"
+import {useCart} from "../context/cartContext"
 
 const Navbar = () => {
     const {cartState}=useCart()

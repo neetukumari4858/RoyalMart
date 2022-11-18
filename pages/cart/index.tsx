@@ -2,12 +2,27 @@
 import Navbar from "../../components/navbar";
 import { useCart } from "../../context/cartContext";
 import styles from "./../../styles/products.module.css"
-import PriceDetail from "./../../components/priceDetail";
+import PriceDetail from "../../components/priceDetail";
+
+type cartProps = {
+    id: number,
+    productName:string
+    idealName:string
+    price:string
+    brand:string
+    productImage:string
+    quantity:number
+    discount:string
+    stock:number
+   
+}
 
 const cart = () => {
 
     const { cartState, cartDispatch } = useCart()
     const { cart } = cartState
+    console.log(cart, "cart");
+
 
     return (
         <>
@@ -19,7 +34,7 @@ const cart = () => {
 
                         <div className={styles.cartpage_container}>
                             {
-                                cart.map(({ id, productName, idealName, price, brand, productImage, quantity, discount, stock }) => {
+                                cart.map(({ id, productName, idealName, price, brand, productImage, quantity, discount, stock }:cartProps) => {
 
                                     return (
                                         <div className={styles.each_item} key={id}>
