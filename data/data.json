@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "productName": "Women Printed Viscose Rayon ",
+    "idealName": "women",
+    "size": "S",
+    "price": "300",
+    "brand": "Libas",
+    "productImage": "https://5.imimg.com/data5/AU/WN/MY-42446239/women-kurti-500x500.jpg",
+    "quantity": 1,
+    "discount": "10",
+    "stock":3
+  },
+  {
+    "id": 2,
+    "productName": "Women Printed Viscose Rayon",
+    "idealName": "women",
+    "size": "XL",
+    "price": "400",
+    "brand": "Libas",
+    "productImage": "https://m.media-amazon.com/images/I/71nU1LeJKZL._UL1500_.jpg",
+    "quantity": 1,
+    "discount": "10",
+    "stock":5
+  },
+  {
+    "id": 3,
+    "productName": "Women Printed Viscose Rayon",
+    "idealName": "women",
+    "size": "M",
+    "price": "200",
+    "brand": "Biba",
+    "productImage": "https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPRAIN-AND-RAIGULS65146B08CF066/1570613720898_1..jpg",
+    "quantity": 1,
+    "discount": "9",
+    "stock":4
+  },
+  {
+    "id": 4,
+    "productName": "Women Printed Viscose Rayon ",
+    "idealName": "women",
+    "size": "XL",
+    "price": "600",
+    "brand": "Biba",
+    "productImage": "https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPYASH-GALLERYAASH1296504D3AAF65/10.jpg?imwidth=282&impolicy=hq",
+    "quantity": 1,
+    "discount": "9",
+    "stock":3
+  },
+  {
+    "id": 5,
+    "productName": "Women Printed Viscose Rayon ",
+    "idealName": "women",
+    "size": "S",
+    "price": "500",
+    "brand": "Libas",
+    "productImage": "https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPYASH-GALLERYAASH129650D461C7E3/10.jpg",
+    "quantity": 1,
+    "discount": "7",
+    "stock":5
+  },
+  {
+    "id": 6,
+    "productName": "Solid Men Round Neck ",
+    "idealName": "mens",
+    "size": "L",
+    "price": "200",
+    "brand": "Nayka",
+    "productImage": "https://m.media-amazon.com/images/I/7147yUb5IEL._UY550_.jpg",
+    "quantity": 1,
+    "discount": "10",
+    "stock":5
+  },
+  {
+    "id": 7,
+    "productName": "Solid Men Round Neck",
+    "idealName": "mens",
+    "size": "M",
+    "price": "400",
+    "brand": "Libas",
+    "productImage": "https://www.leatherclue.com/image/cache/catalog/TEES/LC/2-oct-men-s-tshirt-550x550.jpg",
+    "quantity": 1,
+    "discount": "11",
+    "stock":4
+  },
+  {
+    "id": 8,
+    "productName": "Solid Men Round Neck ",
+    "idealName": "mens",
+    "size": "L",
+    "price": "500",
+    "brand": "Nayka",
+    "productImage": "https://rukminim1.flixcart.com/image/332/398/l4iscy80/t-shirt/7/n/l/s-ts1-vebnor-original-imagfej2qang8ghx.jpeg?q=50",
+    "quantity": 1,
+    "discount": "20",
+    "stock":5
+  },
+  {
+    "id": 9,
+    "productName": "Solid Men Round Neck ",
+    "idealName": "mens",
+    "size": "M",
+    "price": "600",
+    "brand": "Biba",
+    "productImage": "https://m.media-amazon.com/images/I/61ptYDK-xvL._UY550_.jpg",
+    "quantity": 1,
+    "discount": "12",
+    "stock":5
+  },
+  {
+    "id": 10,
+    "productName": "Solid Men Round Neck",
+    "idealName": "mens",
+    "size": "L",
+    "price": "1000",
+    "brand": "Nayka",
+    "productImage": "https://m.media-amazon.com/images/I/419vG6z03YL.jpg",
+    "quantity": 1,
+    "discount": "10",
+    "stock":3
+  }
+]

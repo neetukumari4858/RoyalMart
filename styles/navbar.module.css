@@ -1,0 +1,39 @@
+.nav_container {
+    background-color: blue;
+    height: 5rem;
+    border-bottom-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+}
+
+.nav_items {
+    display: flex;
+    list-style: none;
+    gap: 0.2rem;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    top: -5rem;
+    cursor: pointer;
+}
+
+.nav_link {
+    padding: 2rem;
+    color: white;
+    font-weight: 900;
+}
+
+.counter {
+    color: "white";
+    background-color: red;
+    border-radius: 100%;
+    padding: 0.3rem 0.6rem;
+    position: relative;
+    top: -0.5rem;
+    left: 0.1rem;
+
+}
+.logo_name{
+    color: white;
+   padding: 1.5rem;
+   font-size: 2rem;
+}
